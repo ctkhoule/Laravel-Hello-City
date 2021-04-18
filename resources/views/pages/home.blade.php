@@ -6,7 +6,3 @@
   <h1>Hello from Dakar!</h1>
   <p>Il est en ce moment : {{ date('h:i A') }} UTC</p>
 @endsection
-
-@section('linkabout')
-  &middot; <a href="{{ route('apropos') }}">A propos</a> </p>
-@endsection
