@@ -8,5 +8,5 @@
 @endsection
 
 @section('linkabout')
-  &middot; <a href="/a-propos">A propos</a> </p>
+  &middot; <a href="{{ route('apropos') }}">A propos</a> </p>
 @endsection
