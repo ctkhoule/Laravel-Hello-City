@@ -4,8 +4,12 @@
   
 
 @section('content')
-  <img src="{{ asset('images/profil.jpg') }}" alt="Profile Cheikh TK" width="150" height="150">
-
-  <p>Développé par Cheikh TK &hearts;</p>
-  <p><a href="{{ route('home') }}">Retour à la page d'accueil</a></p>
+  <img src="{{ asset('images/profil.jpg') }}" alt="Profile Cheikh TK" width="200" height="200" class="my-12 rounded-full shadow-md h-32">
+  <h2 class="mb-5 text-lg text-gray-700">
+    Développé par Cheikh TK <span class="text-pink-500">&hearts;</span>
+  </h2>
+  <p>
+    <a href="{{ route('home') }}" class="text-indigo-500 hover:text-indigo-600 underline">Retour à la page d'accueil</a>
+  </p>
 @endsection
+ 
